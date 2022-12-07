@@ -16,6 +16,7 @@ function boring() {
 
 function moo() {
     var str = document.getElementById("myText");
+    str = str.toUpperCase();
     var parts = str.value.split(".");
     str.value = parts.join("-Moo");
 }
