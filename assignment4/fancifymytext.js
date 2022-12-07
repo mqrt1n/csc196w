@@ -1,3 +1,4 @@
+// Martin Biscocho - CSC 196W
 function bigger() {
     document.getElementById("text").style.fontSize = "24pt";
 }
