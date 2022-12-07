@@ -1,22 +1,22 @@
 function bigger() {
-    document.getElementById("myText").style.fontSize = "24pt";
+    document.getElementById("text").style.fontSize = "24pt";
 }
 
 function fancy() {
-    document.getElementById("myText").style.fontWeight = "bold";
-    document.getElementById("myText").style.color = "blue";
-    document.getElementById("myText").style.textDecoration = "underline";
+    document.getElementById("text").style.fontWeight = "bold";
+    document.getElementById("text").style.color = "blue";
+    document.getElementById("text").style.textDecoration = "underline";
 }
 
 function boring() {
-    document.getElementById("myText").style.fontWeight = "normal";
-    document.getElementById("myText").style.color = "black";
-    document.getElementById("myText").style.textDecoration = "none";
+    document.getElementById("text").style.fontWeight = "normal";
+    document.getElementById("text").style.color = "black";
+    document.getElementById("text").style.textDecoration = "none";
 }
 
 function moo() {
-    var str = document.getElementById("myText");
-    str = str.toUpperCase();
+    var str = document.getElementById("text");
+    str.value = str.value.toUpperCase();
     var parts = str.value.split(".");
     str.value = parts.join("-Moo");
 }

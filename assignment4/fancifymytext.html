@@ -10,23 +10,22 @@
 
 		<fieldset>
 			<legend>Text</legend>
-			<TextArea id="myText" rows="4" cols="30"></TextArea>
+			<TextArea id="text" rows="4" cols="30">I am glad that you liked it! the picture that you're seeing right now is a prototype, we're still preparing the final product. I'll send you a DM when it's ready, promise!</TextArea>
 		</fieldset>
 
 		<fieldset>
 			<legend>Fancify</legend>
 			<form>
-				<button type="button" onclick="bigger()">Bigger!</button><br>
+				<input type="button" value="Bigger!" onclick="bigger()"/>
 
-				<input type="radio" id="fancy" name="styleToggle" onchange="fancy()">
-				<label for="fancy">FancySchmancy</label><br>
+				<input type="radio" id="fancyStyle" name="style" value="FancySchmancy" onchange="fancy()"/>
+				<label for="fancyStyle">FancySchmancy</label>
 
-				<input type="radio" id="boring" name="styleToggle" onchange="boring()">
-				<label for="boring">BoringBetty</label><br>
+				<input type="radio" id="boringStyle" name="style" value="BoringBetty" onchange="boring()"/>
+				<label for="boringStyle">BoringBetty</label>
 
-				<button type="button" onclick="moo()">Moo</button>
+				<input type="button" value="Moo!" onclick="moo()"/>
 			</form>
 		</fieldset>
-		
 	</body>
 </html>
