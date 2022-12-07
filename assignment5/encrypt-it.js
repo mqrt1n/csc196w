@@ -1,4 +1,3 @@
-// Martin Biscocho - CSC 196W
 /*
  * Starter file 
  */
